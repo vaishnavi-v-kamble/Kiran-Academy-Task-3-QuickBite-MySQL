@@ -92,7 +92,7 @@ select restaurant_name , city from restaurants where city='Pune';
 #Task 4. Find restaurants having more than 20,000 orders.
 select restaurant_name ,orders_count from restaurants where orders_count > 20000;
 
-# Find restaurants whose delivery time is greater than 40 minutes.
+#Task 5. Find restaurants whose delivery time is greater than 40 minutes.
 select restaurant_name ,est_delivery_time from restaurants where est_delivery_time > 40;
 
 #Task 6. Find restaurants whose rating is between 4.2 and 4.7.
@@ -107,7 +107,7 @@ SELECT restaurant_name, owner_name FROM restaurants WHERE owner_name LIKE '%Pati
 #Task 9. Find restaurants where brand matches the restaurant name.
 SELECT restaurant_name,brand FROM restaurants WHERE brand = restaurant_name;
 
-#Task 10. Find restaurants having delivery fee less than n30.
+#Task 10. Find restaurants having delivery fee less than 30.
 SELECT restaurant_name, delivery_fee FROM restaurants WHERE delivery_fee < 30;
 
 #4. ■ LEVEL 2 — Recommendation Team
@@ -176,7 +176,8 @@ SELECT * FROM restaurants WHERE avg_order_value > 400 AND rating >4.5;
 SELECT * FROM restaurants WHERE orders_count > 20000 OR rating > 4.7;
 
 #Task 31. Find restaurants that are NOT in Pune.
-SELECT * FROM restaurants WHERE city <> 'pune';
+SELECT * FROM restaurants
+ WHERE city <> 'Pune';
 
 #Task 32. Find restaurants whose delivery time is between 25 and 40 minutes.
 SELECT * FROM restaurants WHERE est_delivery_time BETWEEN 25 AND 40;
