@@ -20,6 +20,10 @@ INSERT INTO restaurants
 (restaurant_id, restaurant_name, cuisine, city, rating, avg_order_value,
  orders_count, delivery_fee, est_delivery_time, owner_name, brand)
 VALUES
+(102, 'South Tiffin House', 'South Indian', 'Pune', 4.3, 260, 14300, 29, 25, 'Priya Nair', 'South Tiffin'),
+ 
+(103, 'Mumbai Zaika', 'Maharashtrian', 'Mumbai', 4.1, 350, 22000, 49, 38, 'Rohit Patil', 'Zaika Foods'),
+ 
 (104, 'Burger Garage', 'Fast Food', 'Pune', 4.4, 310, 27500, 29, 30, 'Neha Joshi', 'Burger Garage'),
 
 (105, 'Pizza Planet', 'Italian', 'Mumbai', 4.6, 520, 31000, 19, 35, 'Vikas Mehta', 'Pizza Planet'),
