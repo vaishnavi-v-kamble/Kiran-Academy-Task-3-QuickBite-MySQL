@@ -123,7 +123,7 @@ select distinct cuisine from restaurants;
 select restaurant_name AS Restaurant_Name , rating AS Customer_Rating from restaurants;
 
 #Task 16. Display restaurant name, owner and brand only.
-select restaurant_name, owner_name and brand from restaurants;
+select restaurant_name, owner_name ,brand from restaurants;
 
 #Task 17. Sort restaurants by city and then rating descending.
 SELECT * from restaurants ORDER BY city ASC, rating DESC;
